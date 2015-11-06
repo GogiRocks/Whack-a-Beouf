@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FABCEF9F1BEC18F00050D978 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABCEF9E1BEC18F00050D978 /* AppDelegate.swift */; };
+		FABCEFA11BEC18F00050D978 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FABCEFA01BEC18F00050D978 /* GameScene.sks */; };
+		FABCEFA31BEC18F00050D978 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABCEFA21BEC18F00050D978 /* GameScene.swift */; };
+		FABCEFA51BEC18F00050D978 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABCEFA41BEC18F00050D978 /* GameViewController.swift */; };
+		FABCEFA81BEC18F00050D978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABCEFA61BEC18F00050D978 /* Main.storyboard */; };
+		FABCEFAA1BEC18F00050D978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FABCEFA91BEC18F00050D978 /* Assets.xcassets */; };
+		FABCEFAD1BEC18F00050D978 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABCEFAB1BEC18F00050D978 /* LaunchScreen.storyboard */; };
+		FABCEFB81BEC18F10050D978 /* Whack_a_BeoufTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABCEFB71BEC18F10050D978 /* Whack_a_BeoufTests.swift */; };
+		FABCEFC31BEC18F10050D978 /* Whack_a_BeoufUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABCEFC21BEC18F10050D978 /* Whack_a_BeoufUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FABCEFB41BEC18F10050D978 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FABCEF931BEC18F00050D978 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FABCEF9A1BEC18F00050D978;
+			remoteInfo = "Whack-a-Beouf";
+		};
+		FABCEFBF1BEC18F10050D978 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FABCEF931BEC18F00050D978 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FABCEF9A1BEC18F00050D978;
+			remoteInfo = "Whack-a-Beouf";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FABCEF9B1BEC18F00050D978 /* Whack-a-Beouf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Whack-a-Beouf.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FABCEF9E1BEC18F00050D978 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FABCEFA01BEC18F00050D978 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		FABCEFA21BEC18F00050D978 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		FABCEFA41BEC18F00050D978 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		FABCEFA71BEC18F00050D978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FABCEFA91BEC18F00050D978 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FABCEFAC1BEC18F00050D978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FABCEFAE1BEC18F00050D978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FABCEFB31BEC18F10050D978 /* Whack-a-BeoufTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Whack-a-BeoufTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FABCEFB71BEC18F10050D978 /* Whack_a_BeoufTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whack_a_BeoufTests.swift; sourceTree = "<group>"; };
+		FABCEFB91BEC18F10050D978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FABCEFBE1BEC18F10050D978 /* Whack-a-BeoufUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Whack-a-BeoufUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FABCEFC21BEC18F10050D978 /* Whack_a_BeoufUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whack_a_BeoufUITests.swift; sourceTree = "<group>"; };
+		FABCEFC41BEC18F10050D978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FABCEF981BEC18F00050D978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABCEFB01BEC18F10050D978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABCEFBB1BEC18F10050D978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FABCEF921BEC18F00050D978 = {
+			isa = PBXGroup;
+			children = (
+				FABCEF9D1BEC18F00050D978 /* Whack-a-Beouf */,
+				FABCEFB61BEC18F10050D978 /* Whack-a-BeoufTests */,
+				FABCEFC11BEC18F10050D978 /* Whack-a-BeoufUITests */,
+				FABCEF9C1BEC18F00050D978 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FABCEF9C1BEC18F00050D978 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FABCEF9B1BEC18F00050D978 /* Whack-a-Beouf.app */,
+				FABCEFB31BEC18F10050D978 /* Whack-a-BeoufTests.xctest */,
+				FABCEFBE1BEC18F10050D978 /* Whack-a-BeoufUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FABCEF9D1BEC18F00050D978 /* Whack-a-Beouf */ = {
+			isa = PBXGroup;
+			children = (
+				FABCEF9E1BEC18F00050D978 /* AppDelegate.swift */,
+				FABCEFA01BEC18F00050D978 /* GameScene.sks */,
+				FABCEFA21BEC18F00050D978 /* GameScene.swift */,
+				FABCEFA41BEC18F00050D978 /* GameViewController.swift */,
+				FABCEFA61BEC18F00050D978 /* Main.storyboard */,
+				FABCEFA91BEC18F00050D978 /* Assets.xcassets */,
+				FABCEFAB1BEC18F00050D978 /* LaunchScreen.storyboard */,
+				FABCEFAE1BEC18F00050D978 /* Info.plist */,
+			);
+			path = "Whack-a-Beouf";
+			sourceTree = "<group>";
+		};
+		FABCEFB61BEC18F10050D978 /* Whack-a-BeoufTests */ = {
+			isa = PBXGroup;
+			children = (
+				FABCEFB71BEC18F10050D978 /* Whack_a_BeoufTests.swift */,
+				FABCEFB91BEC18F10050D978 /* Info.plist */,
+			);
+			path = "Whack-a-BeoufTests";
+			sourceTree = "<group>";
+		};
+		FABCEFC11BEC18F10050D978 /* Whack-a-BeoufUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FABCEFC21BEC18F10050D978 /* Whack_a_BeoufUITests.swift */,
+				FABCEFC41BEC18F10050D978 /* Info.plist */,
+			);
+			path = "Whack-a-BeoufUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FABCEF9A1BEC18F00050D978 /* Whack-a-Beouf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FABCEFC71BEC18F10050D978 /* Build configuration list for PBXNativeTarget "Whack-a-Beouf" */;
+			buildPhases = (
+				FABCEF971BEC18F00050D978 /* Sources */,
+				FABCEF981BEC18F00050D978 /* Frameworks */,
+				FABCEF991BEC18F00050D978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Whack-a-Beouf";
+			productName = "Whack-a-Beouf";
+			productReference = FABCEF9B1BEC18F00050D978 /* Whack-a-Beouf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FABCEFB21BEC18F10050D978 /* Whack-a-BeoufTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FABCEFCA1BEC18F10050D978 /* Build configuration list for PBXNativeTarget "Whack-a-BeoufTests" */;
+			buildPhases = (
+				FABCEFAF1BEC18F10050D978 /* Sources */,
+				FABCEFB01BEC18F10050D978 /* Frameworks */,
+				FABCEFB11BEC18F10050D978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FABCEFB51BEC18F10050D978 /* PBXTargetDependency */,
+			);
+			name = "Whack-a-BeoufTests";
+			productName = "Whack-a-BeoufTests";
+			productReference = FABCEFB31BEC18F10050D978 /* Whack-a-BeoufTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FABCEFBD1BEC18F10050D978 /* Whack-a-BeoufUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FABCEFCD1BEC18F10050D978 /* Build configuration list for PBXNativeTarget "Whack-a-BeoufUITests" */;
+			buildPhases = (
+				FABCEFBA1BEC18F10050D978 /* Sources */,
+				FABCEFBB1BEC18F10050D978 /* Frameworks */,
+				FABCEFBC1BEC18F10050D978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FABCEFC01BEC18F10050D978 /* PBXTargetDependency */,
+			);
+			name = "Whack-a-BeoufUITests";
+			productName = "Whack-a-BeoufUITests";
+			productReference = FABCEFBE1BEC18F10050D978 /* Whack-a-BeoufUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FABCEF931BEC18F00050D978 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Gogi Region";
+				TargetAttributes = {
+					FABCEF9A1BEC18F00050D978 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					FABCEFB21BEC18F10050D978 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = FABCEF9A1BEC18F00050D978;
+					};
+					FABCEFBD1BEC18F10050D978 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = FABCEF9A1BEC18F00050D978;
+					};
+				};
+			};
+			buildConfigurationList = FABCEF961BEC18F00050D978 /* Build configuration list for PBXProject "Whack-a-Beouf" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FABCEF921BEC18F00050D978;
+			productRefGroup = FABCEF9C1BEC18F00050D978 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FABCEF9A1BEC18F00050D978 /* Whack-a-Beouf */,
+				FABCEFB21BEC18F10050D978 /* Whack-a-BeoufTests */,
+				FABCEFBD1BEC18F10050D978 /* Whack-a-BeoufUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FABCEF991BEC18F00050D978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABCEFA11BEC18F00050D978 /* GameScene.sks in Resources */,
+				FABCEFAD1BEC18F00050D978 /* LaunchScreen.storyboard in Resources */,
+				FABCEFAA1BEC18F00050D978 /* Assets.xcassets in Resources */,
+				FABCEFA81BEC18F00050D978 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABCEFB11BEC18F10050D978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABCEFBC1BEC18F10050D978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FABCEF971BEC18F00050D978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABCEFA31BEC18F00050D978 /* GameScene.swift in Sources */,
+				FABCEFA51BEC18F00050D978 /* GameViewController.swift in Sources */,
+				FABCEF9F1BEC18F00050D978 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABCEFAF1BEC18F10050D978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABCEFB81BEC18F10050D978 /* Whack_a_BeoufTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABCEFBA1BEC18F10050D978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABCEFC31BEC18F10050D978 /* Whack_a_BeoufUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FABCEFB51BEC18F10050D978 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FABCEF9A1BEC18F00050D978 /* Whack-a-Beouf */;
+			targetProxy = FABCEFB41BEC18F10050D978 /* PBXContainerItemProxy */;
+		};
+		FABCEFC01BEC18F10050D978 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FABCEF9A1BEC18F00050D978 /* Whack-a-Beouf */;
+			targetProxy = FABCEFBF1BEC18F10050D978 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FABCEFA61BEC18F00050D978 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FABCEFA71BEC18F00050D978 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FABCEFAB1BEC18F00050D978 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FABCEFAC1BEC18F00050D978 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FABCEFC51BEC18F10050D978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FABCEFC61BEC18F10050D978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FABCEFC81BEC18F10050D978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Whack-a-Beouf/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.google.gogiregion.Whack-a-Beouf";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FABCEFC91BEC18F10050D978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Whack-a-Beouf/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.google.gogiregion.Whack-a-Beouf";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FABCEFCB1BEC18F10050D978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Whack-a-BeoufTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.google.gogiregion.Whack-a-BeoufTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Whack-a-Beouf.app/Whack-a-Beouf";
+			};
+			name = Debug;
+		};
+		FABCEFCC1BEC18F10050D978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Whack-a-BeoufTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.google.gogiregion.Whack-a-BeoufTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Whack-a-Beouf.app/Whack-a-Beouf";
+			};
+			name = Release;
+		};
+		FABCEFCE1BEC18F10050D978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Whack-a-BeoufUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.google.gogiregion.Whack-a-BeoufUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Whack-a-Beouf";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FABCEFCF1BEC18F10050D978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Whack-a-BeoufUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.google.gogiregion.Whack-a-BeoufUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Whack-a-Beouf";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FABCEF961BEC18F00050D978 /* Build configuration list for PBXProject "Whack-a-Beouf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FABCEFC51BEC18F10050D978 /* Debug */,
+				FABCEFC61BEC18F10050D978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FABCEFC71BEC18F10050D978 /* Build configuration list for PBXNativeTarget "Whack-a-Beouf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FABCEFC81BEC18F10050D978 /* Debug */,
+				FABCEFC91BEC18F10050D978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FABCEFCA1BEC18F10050D978 /* Build configuration list for PBXNativeTarget "Whack-a-BeoufTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FABCEFCB1BEC18F10050D978 /* Debug */,
+				FABCEFCC1BEC18F10050D978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FABCEFCD1BEC18F10050D978 /* Build configuration list for PBXNativeTarget "Whack-a-BeoufUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FABCEFCE1BEC18F10050D978 /* Debug */,
+				FABCEFCF1BEC18F10050D978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FABCEF931BEC18F00050D978 /* Project object */;
+}
