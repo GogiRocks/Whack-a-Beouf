@@ -16,6 +16,8 @@
 		FABCEFAD1BEC18F00050D978 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABCEFAB1BEC18F00050D978 /* LaunchScreen.storyboard */; };
 		FABCEFB81BEC18F10050D978 /* Whack_a_BeoufTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABCEFB71BEC18F10050D978 /* Whack_a_BeoufTests.swift */; };
 		FABCEFC31BEC18F10050D978 /* Whack_a_BeoufUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABCEFC21BEC18F10050D978 /* Whack_a_BeoufUITests.swift */; };
+		FABCEFD11BEC2A9D0050D978 /* Shaia.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABCEFD01BEC2A9D0050D978 /* Shaia.swift */; };
+		FABCEFD31BEC2C880050D978 /* Save IO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABCEFD21BEC2C880050D978 /* Save IO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		FABCEFBE1BEC18F10050D978 /* Whack-a-BeoufUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Whack-a-BeoufUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FABCEFC21BEC18F10050D978 /* Whack_a_BeoufUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whack_a_BeoufUITests.swift; sourceTree = "<group>"; };
 		FABCEFC41BEC18F10050D978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FABCEFD01BEC2A9D0050D978 /* Shaia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shaia.swift; sourceTree = "<group>"; };
+		FABCEFD21BEC2C880050D978 /* Save IO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Save IO.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				FABCEFA91BEC18F00050D978 /* Assets.xcassets */,
 				FABCEFAB1BEC18F00050D978 /* LaunchScreen.storyboard */,
 				FABCEFAE1BEC18F00050D978 /* Info.plist */,
+				FABCEFD01BEC2A9D0050D978 /* Shaia.swift */,
+				FABCEFD21BEC2C880050D978 /* Save IO.swift */,
 			);
 			path = "Whack-a-Beouf";
 			sourceTree = "<group>";
@@ -263,6 +269,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FABCEFD31BEC2C880050D978 /* Save IO.swift in Sources */,
+				FABCEFD11BEC2A9D0050D978 /* Shaia.swift in Sources */,
 				FABCEFA31BEC18F00050D978 /* GameScene.swift in Sources */,
 				FABCEFA51BEC18F00050D978 /* GameViewController.swift in Sources */,
 				FABCEF9F1BEC18F00050D978 /* AppDelegate.swift in Sources */,
@@ -411,6 +419,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.google.gogiregion.Whack-a-Beouf";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -422,6 +431,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.google.gogiregion.Whack-a-Beouf";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

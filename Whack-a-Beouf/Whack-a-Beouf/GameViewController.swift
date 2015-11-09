@@ -26,6 +26,24 @@ class GameViewController: UIViewController {
             
             skView.presentScene(scene)
         }
+        
+        //SaveManager file test
+        let dirPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0];
+        let filePath = "\(dirPath) /shaia_score.txt";
+        
+        var fileManager = NSFileManager();
+        
+        fileManager = NSFileManager.defaultManager();
+        
+        let files = try! fileManager.contentsOfDirectoryAtPath(dirPath);
+        let nothingScore = "0";
+        
+        if files[0] != "shaia_score.txt" {
+            
+            try! nothingScore.writeToFile(filePath, atomically: true, encoding: NSUTF8StringEncoding);
+            
+        }
+        
     }
 
     override func shouldAutorotate() -> Bool {

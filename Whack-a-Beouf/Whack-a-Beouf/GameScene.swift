@@ -12,6 +12,8 @@ class GameScene: SKScene {
     
     //location where all sprites need to be rendered
     
+    
+    
     override func update(currentTime: CFTimeInterval) {
         /* Called before each frame is rendered */
     }
