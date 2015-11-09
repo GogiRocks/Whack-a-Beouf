@@ -7,9 +7,32 @@
 //
 
 import SpriteKit
+import GameKit
 
 class ShaiaMole: SKSpriteNode {
     
-    //methods
+    func updateShaia() {
+        
+        //
+        
+    }
+    
+    func animateShaia() {
+    
+        let frames = [
+        
+            SKTexture(imageNamed: "Shaia"),
+            SKTexture(imageNamed: "ShaiaUp")
+        
+        ]
+        
+        let comeUp = SKAction.animateWithTextures(frames, timePerFrame: 0.04);
+        let wait = SKAction.waitForDuration(0.04);
+        let stayInHole = SKAction.setTexture(frames[0]);
+        let animate = SKAction.sequence([comeUp, wait, comeUp, wait, stayInHole]);
+        
+        self.runAction(animate);
+    
+    }
     
 }
