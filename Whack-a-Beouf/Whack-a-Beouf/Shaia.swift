@@ -11,9 +11,24 @@ import GameKit
 
 class ShaiaMole: SKSpriteNode {
     
+    var chances = 5;
+    var inHole = true;
+    
     func updateShaia() {
         
-        var randomNumber = GKRandomSource.sharedRandom().nextIntWithUpperBound(101);
+        let randomNumber = GKRandomSource.sharedRandom().nextIntWithUpperBound(101);
+        
+        if randomNumber <= chances && inHole == true {
+            
+            animateShaia();
+            
+        }
+        
+        if inHole == false {
+            
+            //test for him being tapped
+            
+        }
         
     }
     
