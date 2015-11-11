@@ -13,7 +13,7 @@ class ShaiaMole: SKSpriteNode {
     
     func updateShaia() {
         
-        //
+        var randomNumber = GKRandomSource.sharedRandom().nextIntWithUpperBound(101);
         
     }
     
