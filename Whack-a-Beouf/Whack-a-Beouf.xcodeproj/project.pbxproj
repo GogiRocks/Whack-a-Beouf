@@ -13,11 +13,9 @@
 		FABCEFA51BEC18F00050D978 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABCEFA41BEC18F00050D978 /* GameViewController.swift */; };
 		FABCEFA81BEC18F00050D978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABCEFA61BEC18F00050D978 /* Main.storyboard */; };
 		FABCEFAA1BEC18F00050D978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FABCEFA91BEC18F00050D978 /* Assets.xcassets */; };
-		FABCEFAD1BEC18F00050D978 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABCEFAB1BEC18F00050D978 /* LaunchScreen.storyboard */; };
 		FABCEFB81BEC18F10050D978 /* Whack_a_BeoufTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABCEFB71BEC18F10050D978 /* Whack_a_BeoufTests.swift */; };
 		FABCEFC31BEC18F10050D978 /* Whack_a_BeoufUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABCEFC21BEC18F10050D978 /* Whack_a_BeoufUITests.swift */; };
 		FABCEFD11BEC2A9D0050D978 /* Shaia.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABCEFD01BEC2A9D0050D978 /* Shaia.swift */; };
-		FABCEFD31BEC2C880050D978 /* Save IO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABCEFD21BEC2C880050D978 /* Save IO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +43,6 @@
 		FABCEFA41BEC18F00050D978 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		FABCEFA71BEC18F00050D978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FABCEFA91BEC18F00050D978 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FABCEFAC1BEC18F00050D978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FABCEFAE1BEC18F00050D978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FABCEFB31BEC18F10050D978 /* Whack-a-BeoufTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Whack-a-BeoufTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FABCEFB71BEC18F10050D978 /* Whack_a_BeoufTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whack_a_BeoufTests.swift; sourceTree = "<group>"; };
@@ -54,7 +51,6 @@
 		FABCEFC21BEC18F10050D978 /* Whack_a_BeoufUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whack_a_BeoufUITests.swift; sourceTree = "<group>"; };
 		FABCEFC41BEC18F10050D978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FABCEFD01BEC2A9D0050D978 /* Shaia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shaia.swift; sourceTree = "<group>"; };
-		FABCEFD21BEC2C880050D978 /* Save IO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Save IO.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,12 +105,10 @@
 				FABCEFA01BEC18F00050D978 /* GameScene.sks */,
 				FABCEFA21BEC18F00050D978 /* GameScene.swift */,
 				FABCEFA41BEC18F00050D978 /* GameViewController.swift */,
+				FABCEFD01BEC2A9D0050D978 /* Shaia.swift */,
 				FABCEFA61BEC18F00050D978 /* Main.storyboard */,
 				FABCEFA91BEC18F00050D978 /* Assets.xcassets */,
-				FABCEFAB1BEC18F00050D978 /* LaunchScreen.storyboard */,
 				FABCEFAE1BEC18F00050D978 /* Info.plist */,
-				FABCEFD01BEC2A9D0050D978 /* Shaia.swift */,
-				FABCEFD21BEC2C880050D978 /* Save IO.swift */,
 			);
 			path = "Whack-a-Beouf";
 			sourceTree = "<group>";
@@ -242,7 +236,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FABCEFA11BEC18F00050D978 /* GameScene.sks in Resources */,
-				FABCEFAD1BEC18F00050D978 /* LaunchScreen.storyboard in Resources */,
 				FABCEFAA1BEC18F00050D978 /* Assets.xcassets in Resources */,
 				FABCEFA81BEC18F00050D978 /* Main.storyboard in Resources */,
 			);
@@ -269,7 +262,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FABCEFD31BEC2C880050D978 /* Save IO.swift in Sources */,
 				FABCEFD11BEC2A9D0050D978 /* Shaia.swift in Sources */,
 				FABCEFA31BEC18F00050D978 /* GameScene.swift in Sources */,
 				FABCEFA51BEC18F00050D978 /* GameViewController.swift in Sources */,
@@ -315,14 +307,6 @@
 				FABCEFA71BEC18F00050D978 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FABCEFAB1BEC18F00050D978 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FABCEFAC1BEC18F00050D978 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

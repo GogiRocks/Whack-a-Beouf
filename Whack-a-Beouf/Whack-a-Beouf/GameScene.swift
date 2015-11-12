@@ -27,6 +27,22 @@ class GameScene: SKScene {
     let shaia15 = ShaiaMole();
     
     override func update(currentTime: CFTimeInterval) {
-        /* Called before each frame is rendered */
+        
+        shaia1.updateShaia();
+        shaia2.updateShaia();
+        shaia3.updateShaia();
+        shaia4.updateShaia();
+        shaia5.updateShaia();
+        shaia6.updateShaia();
+        shaia7.updateShaia();
+        shaia8.updateShaia();
+        shaia9.updateShaia();
+        shaia10.updateShaia();
+        shaia11.updateShaia();
+        shaia12.updateShaia();
+        shaia13.updateShaia();
+        shaia14.updateShaia();
+        shaia15.updateShaia();
+        
     }
 }
